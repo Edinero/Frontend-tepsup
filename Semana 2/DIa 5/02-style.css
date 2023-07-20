@@ -1,0 +1,29 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+.gradier{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+     padding: 20px;
+/* background: linear-gradient(to right, #fc466b,
+ #3f5efb, rgb(12, 194, 73), rgb(0, 255, 213));  */
+
+}
+.gradier__content{
+    background-color: #fff;
+    height: 210px;
+ 
+    width: 360px;
+    border-radius: 10px;
+    padding: 20px;
+    border-image: linear-gradient(to bottom, #3acfd5 , #3a4ed5 ) 1/5px;
+    
+  
+}
+/* .gradier:hover{
+    background: linear-gradient(to right,
+     #0b83a1, #2bb310, rgb(57, 9, 85),
+      rgb(0, 255, 213)); 
+
+} */

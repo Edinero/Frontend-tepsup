@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factura Gatitos</title>
+  </head>
+  <body style="margin-bottom: 100px;">
+    <header>
+      <h1>Tablas en html</h1>
+    </header>
+    <main>
+      <section>
+        <table border="1">
+          <tr>
+            <td colspan="2">INVOICE</td>
+            <td colspan="3">NUMERO 02</td>
+          </tr>
+          <tr>
+            <td colspan="3">Cliente</td>
+            <td colspan="2">Direccion</td>
+          </tr>
+          <tr>
+            <th>Item</th>
+            <th>Descripcion</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Importe</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Collar para gato</td>
+            <td>10</td>
+            <td>s/ 20</td>
+            <td>s/ 200</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Casa para loro</td>
+            <td>2</td>
+            <td>s/ 30</td>
+            <td>s/ 60</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <section id="tabla2">
+        <table border="2">
+          <tr>
+            <td>Producto 1</td>
+            <td>Producto 2</td>
+            <td>Producto 3</td>
+            <td>Producto 4</td>
+            <td>Producto 5</td>
+          </tr>
+          <tr>
+            <td>Producto 1</td>
+            <td>Producto 2</td>
+            <td>Producto 3</td>
+            <td>Producto 4</td>
+            <td>Producto 5</td>
+          </tr>
+          <tr>
+            <td>Producto 1</td>
+            <td>Producto 2</td>
+            <td>Producto 3</td>
+            <td>Producto 4</td>
+            <td>Producto 5</td>
+          </tr>
+          <tr>
+            <td colspan="4" align="center">Total</td>
+            <td>Producto 2</td>
+          </tr>
+        </table>
+      </section><hr/>
+      <section id="tabla combinadas">
+        <h3>tablas combinadas</h3>
+        <table border="2">
+            <tr>
+                <th>item 1</th>
+                <th>item 2</th>
+                <th>item 3</th>
+                <th>item 4</th>
+                <th rowspan="4">item 5</th>
+            </tr>
+            <tr>
+                <td>item 1</td>
+                <td>item 2</td>
+                <td>item 3</td>
+                <td>item 4</td>
+               
+            </tr>
+            <tr>
+                <td>item 1</td>
+                <td>item 2</td>
+                <td>item 3</td>
+                <td>item 4</td>
+              
+            </tr>
+            <tr>
+                <td>item 1</td>
+                <td>item 2</td>
+                <td>item 3</td>
+                <td>item 4</td>
+               
+            </tr>
+        </table>
+      </section>
+      <section>
+        <h2>Filas y columnas        
+        </h2>
+        <table border="2">
+            <tr align="center">
+                <td rowspan="2"></td>
+                <td colspan="2">Averange</td>
+                <td rowspan="2">Red eyes</td>
+            </tr>
+            <tr align="center">
+                <td>Height</td>
+                <td>weight</td>
+                
+            </tr>
+            <tr align="center">
+                <td >item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr align="center">
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+        </table>
+      </section><hr/>
+      <section>
+        <h2>Tabla reto2</h2>
+            <table border ="1">
+                <thead>
+                <tr>
+                    <td>Quick</td>
+                    <td colspan="2">brown fox</td>
+                    <td>jumps</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">over the</td>
+                    <td>lazy</td>
+                    <td>dog</td>
+                    <td>and</td>
+                </tr>
+                <tr>
+                    <td>then</td>
+                    <td>it</td>
+                    <td>fall</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td colspan="3">prey to a lion</td>
+                    
+                </tr>
+            </tbody>
+            </table>
+        
+      </section>
+      <table border="1">
+        <tr>
+            <td>Quick</td>
+            <td colspan="2">brown fox</td>
+            <td>jumps</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Over the</td>
+            <td>lazy</td>
+            <td>dog</td>
+            <td>and</td>
+        </tr>
+        <tr>
+            <td>then</td>
+            <td>it</td>
+            <td>fall</td>
+        </tr>
+        <tr>
+            <td colspan="3">prey to a lion</td>
+        </tr>
+    </table>
+    <hr/>
+<section>
+<table border ="1">
+    <tr>
+        <th rowspan="3">day</th>
+        <th colspan="3">seminar</th>
+        
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topie</th>
+       
+    </tr>
+    <tr>
+        <th>Bein</th>
+        <th>End</th>   
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 am</td>
+        <td rowspan="2">5:00 pm</td>
+        <td>Introduction to XML</td>
+    </tr>
+    <tr>
+        <td>Validity DTD and Rrelax NG</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8am</td>
+        <td>5pm</td>
+        <td rowspan="3">
+            <table border="1" width="100%">
+                <tr>
+                    <td>texto</td>
+                    
+                </tr>
+                <tr>
+                    <td>Texto 2</td>
+                    
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>11am</td>
+        <td>demo</td>
+        
+    </tr>
+    <tr>
+        <td>demo</td>
+        <td>demo</td>
+        
+    </tr>
+    <tr>
+        <td>demo</td>
+        <td>demo</td>
+        <td>demo</td>
+        <td>demo</td>
+    </tr>
+     
+    
+</table>
+</section>
+<hr/>
+<section>
+    <h2>Retos 6</h2>
+    <table border="1">
+        <tr align="center">
+            <th></th>
+            <th></th>
+            <th colspan="3">Morning</th>
+            <th>lunch</th>
+            <th colspan="4">afternon</th>
+            <th colspan="3">evening</th>
+            
+        </tr>
+        <tr align="center">
+            <td></td>
+            <td></td>
+            <td>9-10am</td>
+            <td>10-11am</td>
+            <td>11-12am</td>
+            <td>1-2pm</td>
+            <td>2-3pm</td>
+            <td>3-4pm</td>
+            <td>4-5pm</td>
+            <td>5-6pm</td>
+            <td>6-7pm</td>
+            <td>7-8pm</td>
+            <td>8-9pm</td>
+            
+        </tr>
+        <tr align="center">
+            <td rowspan="2">Work</td>
+            <td>Monday</td>
+            <td colspan="3">Development Meeting</td>
+            <td></td>
+            <td colspan="3">Client Meeting</td>
+            <td>Commute</td>
+            <td colspan="3">Free</td>
+            
+        </tr>
+        <tr align="center">
+            <td>Tuesday</td>
+            <td colspan="3">in office</td>
+            <td></td>
+            <td colspan="7">In office</td>
+            
+        </tr>
+        <tr align="center">
+            <td rowspan="2">Lecture</td>
+            <td>Wednesday</td>
+            <td colspan="3">CSC205</td>
+            <td></td>
+            <td colspan="7">preparation</td>
+            
+        </tr>
+        <tr align="center">
+            <td>Thursday</td>
+            <td colspan="3">MAM200</td>
+            <td></td>
+            <td colspan="3">Tutoriales for Mam200</td>
+            <td colspan="4">free</td>
+            
+        </tr>
+        <tr align="center">
+            <td>Research</td>
+            <td>Friday</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="7">Research</td>
+           
+        </tr>
+
+
+    </table>
+</section>
+
+
+      
+    </main>
+  </body>
+</html>

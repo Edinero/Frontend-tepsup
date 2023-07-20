@@ -1,0 +1,18 @@
+
+/*
+Colores comentarios
+avances css en cascada
+Lectura de arriba hacia abajo
+*/
+
+{color:peru}
+p{color: blueviolet;}
+
+
+/*
+si 2 reglas afecta a la ultma regla
+es la que prevalece
+*/
+p{
+    color: rgb(16, 7, 95);
+}

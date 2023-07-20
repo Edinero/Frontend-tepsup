@@ -1,0 +1,33 @@
+/* mobile fisrt
+- la mayor % es celulares
+- mas app sn visitadas por mobile
+- 
+*/
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    color: #fff;
+}
+
+@media(min-width:600px)
+{body{
+    background-color: blueviolet;
+}}
+
+@media(min-width:768px)
+{body{
+    background-color: rgb(43, 137, 150);
+}}
+@media(min-width:992px)
+{body{
+    background-color: rgb(156, 226, 43);
+}}
+@media(min-width:1200px)
+{body{
+    background-color: rgb(226, 43, 67);
+}}
+
+ 

@@ -1,0 +1,14 @@
+Extensiones VS Code
+--------------------
+Live Server
+Activitus Bar
+Auto Import: (steoates)
+Auto Rename Tag
+Color Highlight (Sergii N)
+Error Lens
+ESLint
+GitLens
+IntelliCode
+Material Icon Theme
+Monokai Pro
+Prettier

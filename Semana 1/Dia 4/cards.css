@@ -1,0 +1,37 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/perro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cartilla{
+    background-color: hsla(225, 79%, 18%, 0.6);
+    width: 380px;
+    height: 500px;
+    border: solid red 2px;
+   text-align: center;
+   padding-top: 10%;
+}
+.img-principal
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}h1,
+h2,h3,h4,p {
+    color: #ffffff;
+    padding: 3px 0px;
+}
+footer{
+    
+    margin-bottom: 1px;
+}

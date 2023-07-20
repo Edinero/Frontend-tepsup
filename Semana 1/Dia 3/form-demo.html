@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM-1</title>
+    <style>
+        td{ background-color: rgb(99, 202, 233); padding: 4px 8px}
+
+        .s-borde{ border: 0px; border-collapse: collapse;color: yellow; background-color: #222;
+          text-align: right;}
+        
+        .table-2 {background-color: #222;  border-collapse: collapse; color: rgb(245, 241, 10);  width: 400px;}
+
+       a:link {color: #ffffff;}
+       a {color: #ffffff;}
+
+        .table-2 td{padding: 10px; background-color: #222;}
+        .table-2 th{padding: 10px; text-align: left; background-color: #6e9b04; color:#ffffff;"}
+        
+        
+        </style>
+  </head>
+  <body style="margin-bottom: 100px;">
+    <section >
+      <form>
+      <table  border="1" ">
+       
+          <tr style="background-color: yellow; color: red ">
+            <th colspan="2">Registration Form</th>
+          </tr>
+          <tr>
+            <td>
+              <label for="name">Name</label>
+            </td>
+            <td>
+              <input
+                type="text" maxlength="8"
+                
+                title="Debe contener al menos una letra mayúscula y una letra minúscula"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pass">Enter Password</label></td>
+            <td><input type="password" required id="pass"></td>
+          </tr>
+          <tr>
+            <td>Enter Address</td>
+            <td><textarea name="text" id="text" cols="25" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td>Select Game</td>
+            <td>
+                <input type="checkbox" name="hockey" ><label for="input-hockey" >Hockey</label><br/>
+                <input type="checkbox" name="Football" ><label for="Football">Football</label><br/>
+                <input type="checkbox" name="Badminton" ><label for="input-Badminton">Badminton</label><br/>
+                <input type="checkbox" name="Crikethockey" ><label for="input-Crikethockey">Criket</label><br/>
+                <input type="checkbox" name="Voleyball" ><label for="Voleyballhockey">Voleyball</label>
+
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" value="M" required><label for="radio">Male</label>
+                <input type="radio" name="gender"  value="F"required><label for="radio">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Select ur age</td>
+            <td>
+                <select name="age" id="age">
+                    <option value="" selected>Select..</option>
+                    <option value="0-10">Entre 10-20</option>
+                    <option value="21-35">Entre 21-35</option>
+                    <option value="35 a mas">Entre 35 a más</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Select Photo</td>
+            <td>
+              <input type="file" name="" id="archivo" required  accept="image/png" >
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              
+              <button type="button">Click me</button>
+              <button type="reset">Restablecer</button>
+              <button type="submit">Enviar</button>
+              
+              </td>
+           
+          </tr>
+        
+      </table>
+    </form></section>
+<hr/>
+<section>
+<form>
+<table class="table-2" border="0" >
+<tr>
+  <th colspan="2">Sign Up</th>
+  </tr>
+<tr>
+  <td class="s-borde">
+    <label for="first">Fist name</label>
+    </td>
+  <td>
+    <input type="text" name="" id="first" required placeholder="Enter first name">
+  </td>
+</tr>
+<tr>
+  <td class="s-borde">Last Name</td>
+  <td >
+    <input type="text" name="" id="name" required placeholder="Enter last name">
+  </td>
+</tr>
+<tr>
+  <td class="s-borde">
+    Date of Birth</td>
+  <td>
+    <select name="day" id="" >
+      <option value="" selected>Day</option>
+      <option value="1">01</option>
+      <option value="2">02</option>
+      <option value="3">03</option>
+      <option value="4">04</option>
+      <option value="5">05</option>
+      <option value="6">06</option>
+      <option value="7">07</option>
+    </select>
+    <select name="mes" id="" >
+      <option value="" selected>Month..</option>
+      <option value="1">Enero</option>
+      <option value="2">Febrero</option>
+      <option value="3">Marzo</option>
+      <option value="4">Abril</option>
+      <option value="5">Mayo</option>
+      <option value="6">Junio</option>
+      <option value="7">Julio</option>
+    </select>
+    <select name="año" id="" >
+      <option value="" selected>Year..</option>
+      <option value="1">1970</option>
+      <option value="2">1971</option>
+      <option value="3">1972</option>
+      <option value="4">1973</option>
+      <option value="5">1974</option>
+      <option value="6">1975</option>
+      <option value="7">1976</option>
+    </select>
+    
+
+  </td>
+</tr>
+<tr>
+  <td class="s-borde">Genter</td>
+  <td>
+    <input type="radio" name="gender" value="M" required><label for="radio">Male</label>
+                <input type="radio" name="gender"  value="F"required><label for="radio">Female</label>
+    
+  </td>
+</tr>
+<tr>
+  <td class="s-borde">Country</td>
+  <td>
+    <select name="pais" id="">
+      <option value="">Country</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Peru">Peru</option>
+      
+    </select>
+
+
+  </td>
+</tr>
+<tr>
+  <td class="s-borde">E-mail</td>
+  <td>
+    <input type="email" name="" id="email" required placeholder="Enter e-mail">
+  </td>
+</tr>
+<tr>
+  <td class="s-borde"><label for="tel">Phone</label></td>
+  <td><input type="tel" name="tel" id="tel" max="10" placeholder="Enter phone"></td>
+</tr>
+<tr>
+  <td class="s-borde"><label for="pass">Password</label></td>
+  <td><input type="password" name="pass" id="pass" max="6" maxlength="6"></td>
+</tr>
+<tr>
+  <td class="s-borde"><label for="pass">Confirm Password</label></td>
+  <td><input type="password" name="pass" id="pass" maxlength="6"></td>
+</tr>
+<tr>
+  <td></td>
+  <td>
+   
+    <input type="checkbox" id="check"  ><label for="check">
+
+<a href="https://www.google.com">Agree to the terms of use</a>
+
+
+    </label>
+  </td>
+</tr>
+<tr>
+  <th></th>
+  <th>
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+  
+  </th>
+  
+</tr>
+
+</table>
+
+
+</form>
+
+    </section>
+  </body>
+</html>

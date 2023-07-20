@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    background-color: #e5e5e5;
+    /*border-width: 2px;*/
+   /* border-style: solid;
+    border-color: red;*/
+    border: 2px dashed red;
+}
+.card{
+    height: 30rem;
+    width: 20rem;
+    border:2px solid rebeccapurple;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card__img {
+    height: 15rem;
+    border:1px saddlebrown solid;
+    
+}
+.card .card__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__content{
+    padding: 1.3rem;
+}
+.card__content h4{
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+}
+.card__content p {
+   text-align: justify;
+}
+.caja{
+    margin-left: auto;margin-bottom: 20px;
+    height: 100px; width: 100px;
+    border: solid 2px green;
+    outline: 4px solid #000;
+    outline-offset: 15px;
+    outline-style: dashed;
+}

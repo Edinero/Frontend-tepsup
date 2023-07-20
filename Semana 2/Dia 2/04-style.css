@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1:hover{
+color: blueviolet; 
+outline: 1px solid red;
+}
+/*Hover efecto muse encima*/
+
+ul li:hover{
+    background-color: bisque;
+    cursor: pointer;
+    
+}

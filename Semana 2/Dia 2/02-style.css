@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color: #f0f0f0;
+}
+section{
+    min-height: 30rem;
+    border: solid 1px red;
+    background-image: url(abstracto1.png);
+    background-position: calc(100%-20px);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

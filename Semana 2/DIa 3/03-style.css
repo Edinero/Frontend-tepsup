@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+Position: 
+STATIC (x defecto) => nose pude mover
+RELATIVE => Puede ser movido tomando como refetencia 
+los ejes Top y Left
+-----------
+position:relative;
+top: 10px;
+left 20px;
+Un elemento pude tener posic relativa para que 
+sus hijos con "posc absoluta"
+no salgan de sus limites.
+*/

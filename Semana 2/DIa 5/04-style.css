@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.padre {
+    height: 350px;
+  display: flex;
+    /* flex-direction: column; */
+  background-color: rgb(231, 231, 231);
+  
+  justify-content:;
+  /* align-items: start; */
+  flex-wrap: wrap;
+  align-content:start;
+  justify-content: flex-end;
+  gap:5px;
+  flex-direction: c;
+}
+.padre > div {
+  background-color: rgb(153, 255, 127);
+  border: 1px solid;
+  height: 50px;
+  
+  
+}
+
+.hijo-1 {
+  width:100%;
+}
+.hijo-2 {
+  width: 120px;
+}
+.hijo-3 {
+  width: 90px;
+}
+.hijo-4 {
+width: 90px;
+}
+
+/*
+FLEX ROW
+eje pricncipal X
+
+
+FLEX 
+*/

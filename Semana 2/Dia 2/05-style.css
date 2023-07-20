@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px;
+    box-shadow: #aaa 0px 0px 15px ;
+}
+
+h1{
+    text-shadow: #888 3px 3px 10px;
+    padding: 10px;
+}
+.caja,.caja2{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid royalblue ; */
+ margin:50px 100px;
+ border-radius: 50%;
+ box-shadow: #888 0px 0px 20px;
+}
+
+.caja2{
+    box-shadow:  #888 0px 0px 20px inset;
+}
+
+

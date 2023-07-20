@@ -1,0 +1,70 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+.carton{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    transition: all 0.25s ease-out 0s;
+    margin: 20px 50px;
+}
+
+.carton .carton__img{
+position: relative;
+
+}
+
+.carton .carton__img img{
+    width: 300px;
+    }
+
+.carton .carton__img .icono img {
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(27, 102, 214);border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    bottom: 40%;
+    filter: opacity(0);
+}
+.carton .carton__img .titulo{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    filter: opacity(0);
+}
+.carton .carton__content{
+    padding: 1.5rem;
+}
+.carton .carton__content h4{
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+}
+.carton .carton__content p{
+    line-height: 1.3rem;
+    color: #444;
+}
+.carton:hover .carton__img .titulo{
+   filter: opacity(1);}
+
+.carton:hover .carton__img .icono img {
+     filter: opacity(1);
+}
+.carton:hover{
+    outline: solid #fff 2px;
+    box-shadow: 0px 0px 20px #888;
+  
+}
+.carton:hover .carton__img img{
+    filter: brightness(0.6);
+    
+    
+    }

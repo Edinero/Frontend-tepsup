@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+main {
+	min-height: 100vh;
+	background-image: url(misti.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+header {
+	height: 60px;
+	background-color: #fa4e4e;
+	/* border: 4px solid #458aa5 */
+	;
+}
+
+section {
+	min-height: 30rem;
+	border: 10px solid rgb(167, 231, 223);
+	background-image: url(abstracto1.png);
+	background-position: calc(100% - 1px);
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+h2 {
+	text-align: center;
+	font-size: 4rem;
+	font-family: sans-serif;
+}

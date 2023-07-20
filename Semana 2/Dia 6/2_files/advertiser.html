@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0151)https://fledge.us.criteo.com/tagging/advertiser?partnerId=36026&uid=71b5ef47-b94d-4386-996b-d2dcd17466ea&requestId=0192625f-f0ea-499e-94e2-0328896acba5 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <!-- Chrome origin trial token -->
+    <meta http-equiv="origin-trial" content="AnolOEEMEnMaCvmUcw/eijaA/Ntx4pke43TW8O1+XFxTL7yMSzmBnkPrjQ33sKmqvREEpLQOE72gUMzHLu9KiAoAAABseyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5jb206NDQzIiwiZmVhdHVyZSI6IlByaXZhY3lTYW5kYm94QWRzQVBJcyIsImV4cGlyeSI6MTY5NTE2Nzk5OSwiaXNTdWJkb21haW4iOnRydWV9">
+</head>
+<body>
+
+<script>
+    if (!navigator.joinAdInterestGroup) {
+        console.log("No fledge for you!");
+    } else {
+        var ig = {
+  "owner": "https://fledge.us.criteo.com",
+  "name": "36026000",
+  "biddingLogicUrl": "https://fledge.us.criteo.com/simplebid?platform=us",
+  "trustedBiddingSignalsUrl": "https://fledge.us.criteo.com/getvalues",
+  "trustedBiddingSignalsKeys": [
+    "bid_partner_id_36026_uid_71b5ef47-b94d-4386-996b-d2dcd17466ea"
+  ],
+  "userBiddingSignals": {
+    "trustedBiddingSignalsVersion": 1,
+    "userBiddingSignalsVersion": 1,
+    "partnerId": 36026,
+    "uid": "71b5ef47-b94d-4386-996b-d2dcd17466ea"
+  },
+  "updateUrl": "https://fledge.us.criteo.com/tagging/update?partnerId=36026\u0026uid=71b5ef47-b94d-4386-996b-d2dcd17466ea",
+  "ads": [],
+  "executionMode": "group-by-origin"
+};
+        var expiration = 2592000;
+        navigator.joinAdInterestGroup(ig, expiration);
+    }
+
+    async function measureAudienceSize() {
+        // Measuring audience size
+        // Register worklet
+        if((!window?.sharedStorage?.worklet?.addModule) || (!window?.sharedStorage?.run)){
+            return;
+        }
+        await window.sharedStorage.worklet.addModule('/Tagging/scripts/asw.js');
+
+        // Run audience size measurement operation
+        await window.sharedStorage.run('audience-size-measurement', {
+            data: { partnerId: 36026 }
+        });
+    }
+
+    measureAudienceSize();
+
+</script>
+
+
+</body></html>

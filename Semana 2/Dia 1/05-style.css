@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+main{
+    min-height: 100vh;
+    border: 3px solid red;
+    background-image: url(textura.jpg);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+}
+section{
+}

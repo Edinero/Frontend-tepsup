@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios - Parte 1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formularios Parte 1</h1>
+    </header>
+    <main>
+      <section>
+        <form>
+          <div>
+            <label for="nombres-apellidos">Nombre y apellidos:</label>
+            <input 
+            id="nombres-apellidos" required type="text" 
+            name="nombres" 
+            placeholder="ejm: pedro" 
+            minlength="3"  
+             />
+          </div>
+<div>
+  <label for="input-dni">Dni</label>
+  <input 
+  type="text" 
+  name="dni" 
+  id="input-dni"
+  maxlength="8"
+  required
+  pattern="\d{8}"
+  title="El valor numerico de 8 digitos"
+  >
+</div>
+
+          <div>
+            <label for="input-edad">Edad:</label>
+            <input id="input-edad" type="number" name="edad" required minlength="2"
+            [A-Za-z]{8,}/>
+          </div>
+          <div><label for="">Telefono</label><input type="number" required/></div>
+          <div>
+            <label for="i-correo">Email</label
+            ><input type="email" name="email" id="i-correo" required  />
+          </div>
+          <div>
+            <label for="i-fec-na">Fecha de nacimiento</label>
+            <input type="date" id="i-fec-nac" name="nacimiento" required /><br/>
+            <small>¿Cuando naciste</small>
+          </div>
+          <div>
+            <input type="checkbox" name="marcar" id="marcar" /><label for="marcar"
+              >Aceptar terminos y condiciones</label
+            >
+          </div>
+          <div>
+            <label for="pass">Contraseña</label
+            ><input type="password" name="contra" id="pass" placeholder="minimo 8 caraacteres" min="8" max="16" />
+          </div>
+          <div>
+            <label for="color">Elige tu color</label
+            ><input type="color" name="color" id="color" />
+          </div>
+          <div>
+            <label for="rango">Precios: 50 -200</label
+            ><input type="range" name="precio" id="rango" min="50" max="200" />
+          </div>
+<div>
+  <h4>Tipo de Pago</h4>
+  <Label>Tarjeta de credito</Label><input type="checkbox" name="" id="">
+</div>
+
+
+          <div>
+            <p>Hobbies</p>
+            <label for="guitarra">Tocar Guitarra</label>
+            <input type="checkbox" name="guitarra" id="guitarra"/>
+            <label for="piano">Tocar piano<label">
+            <input type="checkbox" name=pianoa" id="piano"/>
+          </div>
+          <div>
+            <p>TURNO</p>
+            <label for="rd-manana">mañana</label>
+            <input type="radio" name="turno" id="rd-manana" value="Ma" /><br />
+            <label for="tr-tarde">tarde</label>
+            <input type="radio" name="turno" id="rd-mtarde"  value="Tar"/><br />
+            <label for="tr-noche">noche</label>
+                        <input type="radio" name="turno" id="rd-mnoche"  value="Noc"/>
+          </div>
+          <div>
+            <label for="select-pais">Elija pais</label>
+            <select name="pais" required id="select-pais">
+                <option value="">Seleccione...</option>
+                <option value="Peru">Peru</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+          </div>
+          <div>
+            <label for="text-area"></label>
+            <textarea name="text-area" placeholder="Escriba su mensaje" id="text-area" cols="30" rows="5"></textarea>
+          </div>
+          <div>
+            <input type="file" name="archivo" id="file">
+          </div>
+        
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <hr />
+      <section>
+        <form>
+          <table>
+            <tr>
+              <td>
+                <label for="nombres-apellidos">Nombre y apellidos:</label>
+              </td>
+              <td><input id="nombres-apellidos" type="text" /></td>
+            </tr>
+            <tr>
+              <td><label for="input-edad">Edad:</label></td>
+              <td><input id="input-edad" type="number" /></td>
+            </tr>
+          </table>
+        </form>
+      </section>
+
+
+      <section>
+<form>
+  <fieldset>
+    <legend>Datos</legend>
+  <div>
+    <label for="input-edad">Edad:</label>
+    <input id="input-edad" type="number" />
+  </div>
+  <div><label for="nombres-apellidos">Nombre y apellidos:</label>
+    <input id="nombres-apellidos" type="text" /></div>
+     </fieldset>
+<fieldset>
+<legend>Datos secundarios</legend>
+
+</fieldset>
+</form>
+      </section>
+    </main>
+  </body>
+</html>

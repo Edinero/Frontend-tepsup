@@ -1,0 +1,41 @@
+:root{
+--color-primary:#0ce0e7;
+--color-secundary:#12FC5B;
+}
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+header, footer{
+    height: 60px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    border: 1px solid red;
+}
+main{
+
+    background-color: #f3f3f3;
+    min-height: calc(100vh - 120px);
+    border: solid 1px blue;
+    display: flex;
+    
+    }
+aside{
+    border: 2px solid rebeccapurple;
+    background-color: var(--color-secundary);
+}
+article {
+border: 3px solid #000;
+flex:1;
+display: flex;
+align-items: end;
+
+
+}
+img{
+    max-width: calc(100% / 3);
+    padding: 5px;
+}

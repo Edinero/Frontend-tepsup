@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+h1:hover {
+	color: red;
+	/* border: 1px solid red; */
+	/* font-size: 3rem; */
+	outline: 1px solid red;
+}
+
+ul li:hover {
+	background-color: #f4f4f4;
+	cursor: pointer;
+}
